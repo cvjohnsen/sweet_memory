@@ -1,15 +1,27 @@
-html {
-  background-color: pink; /* fallback color */
-  background: linear-gradient(pink, skyblue, lavender);
+/* fallback color */
+html body {
+  background-color: pink;
+  background: linear-gradient(
+    rgb(248, 246, 187),
+    rgb(253, 231, 251),
+    rgb(130, 213, 236)
+  );
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%;
 }
 
+/* animated bg */
+/* #video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+} */
+
 header {
-  /* border: 1px solid lavender; */
-  background-color: lavender;
+  background-color: rgb(82, 14, 138);
 }
 
 h1 {
@@ -21,35 +33,29 @@ h1 {
 h2 {
   text-align: center;
   font-family: lobster;
-  margin-top: 100px;
-  color: white;
+  color: rgb(82, 14, 138);
 }
 
 #grid {
   display: flex;
   flex-wrap: wrap;
-  height: 300px;
-  width: 400px;
+  height: 600px;
+  width: 800px;
   margin-left: 400px;
 }
-
-/* @media screen and (max-width: 800px) {
+/* For Mobile */
+@media screen and (max-width: 800px) {
   #grid {
     flex-wrap: wrap;
     margin-left: 50px;
-  }
-} */
-@media screen and (max-width: 1000px) {
-  /* For Mobile */
-  #grid {
-    flex-wrap: wrap;
-    margin-left: 50px;
+    height: 300px;
+    width: 400px;
   }
 }
-@media only screen and (min-width: 768px) {
-  /* For Desktop: */
+/* For Desktop: */
+@media only screen and (min-width: 800px) {
   #grid {
     flex-wrap: wrap;
-    margin-left: 750px;
+    margin-left: 560px;
   }
 }

@@ -70,7 +70,7 @@ function gameBoard() {
     for (let i=0; i < cardArr.length; i++){
         let card = document.createElement('img')
         // let card to img, set to cottoncandy img
-        card.setAttribute('src', 'image/cottoncandy.jpg')
+        card.setAttribute('src', 'image/sweet-500.jpg')
         card.setAttribute('data-id', i)
         // Invoke a card flip
         // card.addEventListener('click', 'cardFlip')
