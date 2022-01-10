@@ -14,7 +14,18 @@
 <body>
     <header>
       <h1>Sweet Memory</h1>
-    </header> <br>
+    </header> 
+   
+      <p id="instructions">
+        Instructions: <br>
+        This is a concentration memory game. <br>
+        Find as many matches as you can in 30 seconds. <br>
+        For every matched pairs you earn a point. <br>
+        If you earn 3 points you win!<br>
+        Refresh page to start timer. <br>
+      </p>
+    
+
     <!-- Animated Background -->
     <!-- Must mute to avoid autoplay option w/ Chrome -->
     <!-- <div id="video-container">
@@ -23,20 +34,18 @@
     </video>
     </div> -->
 
-<h2>Score: <span id="result"></span></h2>
+<h2>Player Score: <span id="result"></span></h2>
 
-<div>
- <p>Timer:</p> 
-<h3 id="safeTimerDisplay"> 00:30<span id="timer"></span></h3>
-</div>
+<!-- <div id="clock"> -->
+<!-- <button type="button" id="start">Start Game</button>  -->
+<h3 id="safeTimerDisplay">Timer: 00:30 <span></span></h3>
+<!-- </div> -->
 
-<div id="grid" class="grid">
+<div id="grid"></div>
 <!-- appendChild here -->
-</div> 
 <br>
 <br>
 <br>
-
   <script src="app.js"></script>  
 </body>
 </html>
