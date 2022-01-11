@@ -17,7 +17,7 @@ The two key methods to use with JavaScript are:
 The setTimeout() and setInterval() are both methods of the HTML DOM Window object.
 
 Approach Taken:
-The ojective is to find as many matching pairs in 30 seconds. For single player, no matches result in losing the game. Multiple players can take turns playing, player with most points win. If there's a tied, players must rematch! Once a pair is found it'll be removed from the game board. Remaining cards should be played until timer is up. Gameboard is insipired by Ania Kubow's version of memory game.
+The ojective is to find as many matching pairs in 30 seconds. For single player, no matches result in losing the game. Multiple players can take turns playing, player with most points win. If there's a tied, players must rematch! Once a pair is found it'll be removed from the game board. Remaining cards should be played until timer is up. Gameboard is insipired by Ania Kubow's version of memory game. https://youtu.be/tjyDOHzKN0w
 
 INSTRUCTIONS:
 This is a concentration memory game.
@@ -35,4 +35,4 @@ Players with most points wins.
 If tied players must rematch.
 
 Unsolved Problems:
-Add a start timer and reset button, so timer alert won't have to be implemented and players won't have to refresh page to start new game. Perhaps, add another player score board and function, so players don't have to record their own scores.
+Add a start timer and reset button, so timer alert won't have to be implemented and players won't have to refresh page to start new game. Perhaps, add another player score board and function, so players don't have to record their own scores. Work more on the responsive aspect.
