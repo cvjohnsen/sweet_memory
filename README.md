@@ -35,4 +35,4 @@ Players with most points wins.
 If tied players must rematch.
 
 Unsolved Problems:
-Add a start timer and reset button, so timer alert won't have to be implemented and players won't have to refresh page to start new game. Perhaps, add another player score board and function, so players don't have to record their own scores.
+Add a start timer and reset button, so timer alert won't have to be implemented and players won't have to refresh page to start new game. Perhaps, add another player score board and function, so players don't have to record their own scores. Work more on the responsive aspect.
