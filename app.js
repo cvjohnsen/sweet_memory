@@ -29,7 +29,6 @@ window.onload = function () {
         display = document.querySelector('#safeTimerDisplay');
     startTimer(time, display);
 };
-
 // Add image cards oject arrays
 const cardArr = [
 {
@@ -115,9 +114,7 @@ function cardMatch(){
     if (pick1Id === pick2Id) {
         cards[pick1Id].setAttribute('src', 'image/white.jpg')
         cards[pick2Id].setAttribute('src', 'image/white.jpg')
-    //    alert('A Match')
     }else if (cardsChosen[0] === cardsChosen[1]) {
-    //    alert('A Match')
         cards[pick1Id].setAttribute('src', 'image/white.jpg')
         cards[pick2Id].setAttribute('src', 'image/white.jpg')
         // remove cards
@@ -127,7 +124,6 @@ function cardMatch(){
     } else {
         cards[pick1Id].setAttribute('src', 'image/sweet-500.jpg')
         cards[pick2Id].setAttribute('src', 'image/sweet-500.jpg')
-        // alert('Try again!') 
     }
     cardsChosen = []
     cardsChosenId = []
