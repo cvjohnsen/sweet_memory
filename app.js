@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
  //  Check now, comment out later
 // console.log("DOM fully loaded and parsed"); 
 
+// Add reset function/button
+// Add start function/button
 // Add game timer
 function startTimer(duration, display) {
     let timer = duration, minutes, seconds;
@@ -14,14 +16,15 @@ function startTimer(duration, display) {
         display.textContent = minutes + ":" + seconds;
         if (--timer < 0) {
             timer = 0;
-            alert('Time is up!')
-        // uncomment this line to reset timer automatically after reaching 0
+            // alert('Time is up!')
+        //reset timer automatically after reaching 0
         // timer = duration; 
         }
     }, 1000);
 }
 window.onload = function () {
-    let time = 60 / 2, // your time in seconds here
+    // your time in seconds here
+    let time = 60 / 2, 
         display = document.querySelector('#safeTimerDisplay');
     startTimer(time, display);
 };
@@ -147,8 +150,7 @@ function flip (){
     }
 }
 
-// Add reset button
-// Add start button
+// Connect Functions/Buttons
 // document.getElementById('start').click = startTimer;
 
 gameBoard()

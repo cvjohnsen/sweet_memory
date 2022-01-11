@@ -43,7 +43,7 @@ p,
 @media only screen and (max-width: 800px) {
   #grid {
     flex-wrap: wrap;
-    margin-left: 50px;
+    margin-left: auto;
     height: 300px;
     width: 400px;
   }
