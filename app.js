@@ -16,7 +16,7 @@ function startTimer(duration, display) {
         display.textContent = minutes + ":" + seconds;
         if (--timer < 0) {
             timer = 0;
-            // alert('Time is up!')
+            alert('Time is up!')
         //reset timer automatically after reaching 0
         // timer = duration; 
         }
@@ -133,7 +133,7 @@ function cardMatch(){
     results.textContent = cardsWon.length
     // Only flip 2
     if (cardsWon.length === cardArr.length/2) {
-        results.textContent = 'Yay, You Won!'
+        results.textContent = 'Yay, you have super memory powers and cavities!'
     }
 }
 
