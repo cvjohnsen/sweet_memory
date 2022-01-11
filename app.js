@@ -15,10 +15,11 @@ function startTimer(duration, display) {
         seconds = seconds < 10 ? "0" + seconds : seconds;
         display.textContent = minutes + ":" + seconds;
         if (--timer < 0) {
-            timer = 0;
             alert('Time is up!')
+            timer = 0;
+           
         //reset timer automatically after reaching 0
-        // timer = duration; 
+        // timer = duration;  
         }
     }, 1000);
 }
