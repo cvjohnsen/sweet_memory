@@ -40,11 +40,11 @@ p,
 }
 
 /* For Mobile */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
   #grid {
     flex-wrap: wrap;
     margin-left: auto;
-    margin-right: 50px;
+    margin-right: auto;
     height: 300px;
     width: 400px;
   }
